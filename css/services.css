@@ -1,0 +1,25 @@
+.services{margin-top: 130px !important;
+max-width: 900px;
+margin: auto;
+}
+.services .row{
+    display: flex;
+    margin: auto;
+    margin-top: 50px !important;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(77, 194, 214, 0.2);
+}
+.services .col-25{
+    width: 25% !important;
+}
+.services .col-75{
+    width: 75% !important;
+}
+.services img{
+    width: 200px;
+}
+#personal{
+    margin-top: 0px !important;
+}

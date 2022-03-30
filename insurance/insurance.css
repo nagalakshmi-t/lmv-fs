@@ -1,0 +1,31 @@
+ul li,p{
+    line-height: 1.6;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row .col{
+    width: 50%;
+}
+.ins_content h2{
+    text-align: center;        
+}
+.ins_content{
+    max-width: 80%;
+    margin: auto;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+P,ul li{
+    text-align: justify;
+}
+@media (max-width: 940px){
+    .ins_content{
+        max-width: 100% !important;
+    }
+    .row .col{
+        width: 100%;
+    }
+}

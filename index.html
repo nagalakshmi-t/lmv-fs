@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="description"
+        content="LMV Financial Services is one of the best financial services in
+                Hyderabad, Bangalore, Mumbai.We provide all type of Loans mutual fund, financial planning, fixed deposits and insurance services.">
+    <meta name="keywords"
+        content="Financial services in Hyderabad, Bangalore, Mumbai, Pune, Best Financial Services in india">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Services in Hyderabad|Bangalore|Mumbai|Pune|Visakhapatnam|warangal| LMV Financial Services</title>
+
+    <!-- Animation cdn links -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- css styles -->
+    <link rel="icon" href="imges/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!----------------navbar------------------>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-logo"><a href="index.html"><img src="imges/logo.jpeg"></a></div>
+                <div class="homenav">
+                    <ul>
+                        <li><a href="index.html"><i style="font-size: 12px;" class="fa-solid fa-house"></i>Home</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Loans<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="Loans/PersonalLoan.html">Personal Loans</a>
+                                    <a href="Loans/Business_Loan.html">Business Loans</a>
+                                    <a href="Loans/home.html">Home Loans</a>
+                                    <a href="Loans/Lap_Loan.html">LAP Loans</a>
+                                    <a href="Loans/Car_Loan.html">Car Loans</a>
+                                    <!-- <a href="Loans/Education_Loan.html">Education Loans</a> -->
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Credit Cards<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Apply Credit Cards</a>
+                                    <a href="#">HDFC Bank Credit Card</a>
+                                    <a href="#">SBI Credit Card</a>
+                                    <a href="#">Bettr Card</a>
+                                    <a href="#">YES BANK Credit Card</a>
+                                    <a href="#">Citi Bank Credit Card</a>
+                                </div>
+                            </div>
+                        </li> -->
+                        <!-- <li><a href="Services.html">Services</a></li>
+                        <li><a href="Blog.html">Blog</a></li>   -->
+                    </ul>
+                </div>
+                <div class="navbtn">
+                    <button class="navbutton">
+                        <a href="branches.html">
+                            <img src="imges/placeholder.svg" width="13" alt=""><span>Branch Locations</span></a>
+                        <strong>|</strong>
+                        <a onclick="document.getElementById('id01').style.display='block'">
+                            <img src="imges/phone.svg" alt="" width="12">
+                            <span>Request a Callback</span></a>
+                        <div id="id01" class="modal">
+                            <form style="width: 25%; margin: auto;">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                    title="Close Modal">&times;</span>
+                                <label for="fname" class="label" style="color: black;">NAME</label>
+                                <input type="text" id="fname" name="firstname"
+                                    placeholder="Please enter your full name">
+
+                                <label for="mobile" class="label" style="color: black;">MOBILE NUMBER</label>
+                                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number">
+
+                                <label for="mobile" class="label" style="color: black;">Requirement</label>
+                                <textarea name="requirement" rows="1" cols="50"
+                                    placeholder="Please add your requirement..."></textarea>
+                                <div class="subbtn"><input type="submit" value="Submit"></div>
+                            </form>
+                        </div>
+                    </button>
+                </div>
+                <div id="menunav" class="menunav">
+                    <div id="mySidepanel" class="sidepanel">
+                        <ul>
+                            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Loans</button>
+                                    <div class="dropdown-content">
+                                        <a href="Loans/PersonalLoan.html">Personal Loans</a>
+                                        <a href="Loans/Business_Loan.html">Business Loans</a>
+                                        <a href="Loans/home.html">Home Loans</a>
+                                        <a href="Loans/Lap_Loan.html">LAP Loans</a>
+                                        <a href="Loans/Car_Loan.html">Car Loans</a>
+                                        <!-- <a href="Loans/Education_Loan.html">Education Loans</a> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Insurance</button>
+                                    <div class="dropdown-content">
+                                        <a href="insurance/Life_Insurance.html">Life Insurance</a>
+                                        <a href="insurance/Health_Insurance.html">Health Insurance</a>
+                                        <a href="insurance/Motor_insurance.html">Motor Insurance</a>
+                                        <a href="insurance/Travel_Insurance.html">Travel Insurance</a>
+                                        <a href="insurance/Home_Insurance.html">Home Insurance</a>
+                                        <a href="insurance/Marine_Insurance.html">Marine Insurance</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li><a href="Services.html">Our Services</a></li>
+                            <li>                            
+                                <a href="lmvgroup.html">LMV GROUP</a>
+                            
+                            </li>                     -->
+                        </ul>
+                        <div class="aboutsidenav">
+                            <ul>
+                                <li><a href="About.html">About Us</a></li>
+                                <!-- <li><a href="Blog.html">Blog</a></li> -->
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="Career.html">Careers</a></li>
+                                <li><a href="PrivacyPolicy.html">Terms & Conditions</a></li>
+                                <li><a href="branches.html">Our Branches</a></li>
+                                <li>
+                                    <a onclick="document.getElementById('id01').style.display='block'">
+                                        <img src="imges/phone.svg" alt="" width="12">
+                                        <span>Request a Callback</span></a>
+                                    <div id="id01" class="modal">
+                                        <form style="width: 25%; margin: auto;">
+                                            <span onclick="document.getElementById('id01').style.display='none'"
+                                                class="close" title="Close Modal">&times;</span>
+                                            <label for="fname" class="label" style="color: black;">NAME</label>
+                                            <input type="text" id="fname" name="firstname"
+                                                placeholder="Please enter your full name">
+
+                                            <label for="mobile" class="label" style="color: black;">MOBILE
+                                                NUMBER</label>
+                                            <input type="tel" id="mobile" name="mobile"
+                                                placeholder="Enter your mobile number">
+
+                                            <label for="mobile" class="label" style="color: black;">Requirement</label>
+                                            <textarea name="requirement" rows="1" cols="50"
+                                                placeholder="Please add your requirement..."></textarea>
+                                            <div class="subbtn"><input type="submit" value="Submit"></div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="openbtn" onclick="openNav()"> &#9776;</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!----------------slides & form------------------>
+
+    <div class="form1">
+        <div class="container">
+            <div class="row">
+                <div class="col-75">
+                    <div class="slider">
+                        <div class="slide row active">
+                            <div class="col-75 content">
+                                <h4>Get instant personal loans in any financial crunch situations.</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/Personal Loan.png" alt="personal loan in hyderabad"
+                                            class="Pl_Image" width="100%"
+                                            style="margin-top: -50px;margin-left: -50px; width: 500px; height: 450px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide row">
+                            <div class="col-75 content">
+                                <h4>We provide business loans to accomplish your business needs.</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/Business loan.png" alt="Business loan in hyderabad"
+                                            class="Bl_Image" style="margin-top: -135px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide row">
+                            <div class="col-75 content">
+                                <h4>It's time to enter Your dream home with our home loans.</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/Home Loan.png" alt="Home loan in hyderabad" class="Hl_Image"
+                                            style="width: 600px;margin-top: -148px;margin-left: -98px;height: 600px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide row">
+                            <div class="col-75 content">
+                                <h4>Buying your favorite car is now simple with our car loans.</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/car.png" alt="Car loan in hyderabad" class="Car_Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide row">
+                            <div class="col-75 content">
+                                <h4>Loan against property can relieve you from financial stress.</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/LAP-Loan.png" alt="LAP loan in hyderabad" class="Lap_Image"
+                                            style="width: 500px;height: 500px;margin-left: 20px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide row">
+                            <div class="col-75 content">
+                                <!-- <h3>Fulfill your higher education dreams with education loans</h3> -->
+                                <h4>Higher education loans can help you achieve your dreams</h4>
+                            </div>
+                            <div class="col-25">
+                                <div class="images relative">
+                                    <div class="absolute">
+                                        <img src="imges/education.png" alt="Education loan in hyderabad "
+                                            class="Education_Image"
+                                            style="width: 400px; height: 400px; margin-top: -18px; margin-left: -40px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <i class="fas fa-chevron-left prev-btn"></i>
+                            <i class="fas fa-chevron-right next-btn"></i>
+                        </div>
+                        <div class="navigation-visibility" style="display: none;">
+                            <div class="slide-icon active"></div>
+                            <div class="slide-icon"></div>
+                            <div class="slide-icon"></div>
+                            <div class="slide-icon"></div>
+                            <div class="slide-icon"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form col-25">
+                    <form class="my-form" action="https://sheetdb.io/api/v1/qn82wtx22qbvg" method="POST" id="my-form"
+                        autocomplete="off">
+                        <label for="fname" class="label">NAME</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Please enter your full name"
+                            autocomplete="off">
+
+                        <label for="lname" class="label">MAIL ID</label>
+                        <input type="email" id="email" name="email" placeholder="Your email id" autocomplete="off">
+
+                        <label for="mobile" class="label">MOBILE NUMBER</label>
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number"
+                            autocomplete="off">
+
+                        <label for="requirement" class="label">Requirement</label>
+                        <textarea name="requirement" placeholder="Please add your requirement" rows="1"
+                            autocomplete="off"></textarea>
+                        <div class="subbtn"><input type="submit" value="Submit"></div>
+
+                        <span class="trms">By continuing, you provide consent and agree to our <a class="terms"
+                                href="PrivacyPolicy.html">Terms & Conditions</a></span>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------About experience------------------>
+    <!-- data-aos="zoom-in" -->
+    <div class="about">
+        <div class="container">
+            <ul class="about_ul">
+                <li>
+                    <h4 class="about_h2" style="margin-top: 12px;">
+                        <span>15</span>
+                        <sup>+</sup>
+                        <span style="margin-left: 2px;">Years</span>
+                    </h4>
+                    <h5 class="about_h5">Of Experience</h5>
+                </li>
+                <li>
+                    <h4 class="about_h2">
+                        <span>3000cr</span>
+                    </h4>
+                    <h5 class="about_h5">Loans Disbursement Running Last 5 Years</h5>
+                </li>
+                <li>
+                    <h4 class="about_h2" style="margin-top: 12px;">
+                        <span>10000</span>
+                        <sup>+</sup>
+                    </h4>
+                    <h5 class="about_h5">Customers</h5>
+                </li>
+                <li>
+                    <h4 class="about_h2" style="margin-top: 12px;">
+                        <span>7</span>
+                    </h4>
+                    <h5 class="about_h5">Branches accross india</h5>
+                </li>
+                <li>
+                    <h4 class="about_h2" style="margin-top: 12px;">
+                        <span>200</span>
+                        <sup>+</sup>
+                    </h4>
+                    <h5 class="about_h5">Employees</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!----------------services------------------>
+
+    <div class="abc" style="position: relative;">
+        <div class="services">
+            <div class="container">
+                <h3 style="color: #31a0d8; font-weight: 100;">Services</h3>
+                <h2 style="margin: 0; font-weight: bold;">What We Do</h2>
+                <p>We provide a one-stop shop for all your financial requirements, be it <b>loans,
+                        or protection (All types of Insurances).</b> We have quickly grown to have more
+                    than <b>15 branches spread across six states.</b>
+                </p>
+                <div>
+                    <div class="icons">
+                        <div class="row">
+                            <div class="column" style="margin-right: 3rem;">
+                                <div class="services_img">
+                                    <img src="imges/icons/SVG/PERSONAL LOAN.svg">
+                                </div>
+                                <h3>Personal Loan</h3>
+                                <!-- <div class="service_bg"> -->
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">A personal loan in India is the
+                                        best financing choice to meet a variety of your purposes.
+                                        Apply for private loans online, and you'll be able to use the cash to acquire
+                                        all of your expenses.
+                                        Upon applying online at our website
+                                        <!-- https://lmvfinancialservices.com/personal-loan.html,  -->
+                                        an assistant will contact you to help you with the loan requirements.
+                                    </p>
+                                   <button onclick="readMore(this)" class=""> Read More</a></button>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="column" style="margin-right: 3rem;">
+                                <div class="services_img">
+                                    <img src="imges/services-icons/SVG/Business Loan_1.svg" style="margin-left: 10px;">
+                                </div>
+                                <h3>Business Loan</h3>
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">We understand that every
+                                        business has unique financial needs.
+                                        We take great pride and satisfaction in ensuring that business owners and
+                                        entrepreneurs meet
+                                        their business goals by offering simple possible financial solutions. Expand
+                                        your existing
+                                        business, increase production,
+                                        take your business operations online, equip new machinery, and much more.The
+                                        shortage of money
+                                        through business finance enables you to create necessary purchases and payments
+                                        on time helps you
+                                        with a smooth business functioning. Any business owner can
+                                        <!-- https://lmvfinancialservices.com/business-loan.html, -->
+                                        contact us at and we can assist you to avail of a business loan for your
+                                        business purposes.
+                                    </p>
+                                    <button onclick="readMore(this)">Read More</button>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="services_img">
+                                    <img src="imges/services-icons/SVG/Home Loan.svg">
+                                </div>
+                                <h3>Home Loan</h3>
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">
+                                        A home loan is one of the <b>best essential financial products</b>, buying a
+                                        house for the primary
+                                        time is one among the largest joys of life it's not only a special place for
+                                        your loved ones
+                                        and you but also becomes an asset which you'll be able to bequeath to your
+                                        children owning a
+
+                                        house offers stability and confidence.You will even be about to purchase an
+                                        extra house as an investment. In both cases, you're likely
+                                        to use for a loan we are committed to helping you fulfill your dream of owning a
+                                        brand new house.
+                                        You can always contact us from the following URL and provide your details, and
+                                        our home loan
+                                        department team will be taking care of your loan process.
+                                    </p>
+                                    <button onclick="readMore(this)">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column" style="margin-right: 50px;">
+                                <div class="services_img">
+                                    <img src="imges/icons/SVG/LAP LOANS.svg" style="width: 65px;">
+                                </div>
+                                <h3>LAP Loan</h3>
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">
+                                        Get a loan against property (LAP) from LMV Finance for your personal or business
+                                        requirements at low-interest rates.
+                                        Both residential and commercial properties could be mortgaged to get a loan
+                                        against the property.
+                                        LMV financial services help to get loans to either professional and as well as
+                                        self-employed individuals.
+                                        We offer quick hassle-free loans over the property. The loan against property
+                                        offered by LMV Financial services is a simple solution to your financial need.
+                                    </p>
+                                    <button onclick="readMore(this)">Read More</button>
+
+                                </div>
+                            </div>
+                            <div class="column" style="margin-right: 50px;">
+                                <div class="services_img">
+                                    <img src="imges/icons/SVG/Car Loan.svg">
+                                </div>
+                                <h3>Car Loan</h3>
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">
+                                        Owning a car before was a dream, but now it is not a dream anymore, now our car
+                                        loans make your
+                                        dreams come true. Enjoy trips and vacations and build beautiful memories with
+                                        your family in your
+                                        car. With car loans with LMV financial services, you can get benefits like quick
+                                        processing,
+                                        minimal documentation, and speedy fund disbursal.
+                                    </p>
+                                    <button onclick="readMore(this)">Read More</button>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="services_img">
+                                    <img src="imges/services-icons/SVG/Education Loan.svg" style="margin-left: 15px;">
+                                </div>
+                                <h3>Education Loan</h3>
+                                <div class="service_content">
+                                    <p class="contentloan" style="text-align: justify;">
+                                        A student loan is a loan that is designed to help students pay for their
+                                        education
+                                        and the associated fees, such as tuition, books and supplies, and living
+                                        expenses.
+                                        The interest rates for Student Loans are substantially low compared to other
+                                        loans
+                                        where student can repay the loan after he is into a JOB. We will provide student
+                                        loans for those who wish to pursue higher education abroad.</p>
+                                    <button onclick="readMore(this)">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------Our partners------------------>
+
+    <div class="partners">
+        <div class="container">
+            <h2 style="margin: 0; font-weight: bold;">Our partners</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/hdfc-logo.svg">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/axis-logo.svg">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/kotak-mahindra-logo.svg">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/idfc-first-logo.svg">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/yes-logo.svg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/icici-logo.svg">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/Standardbank.png" width="45" height="45">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/flutron.png" width="35" height="35">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/Aditya Birla.png" width="50" height="55">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/poonawalla.jpg" width="40" height="40">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/shinas.png" width="35" height="35">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/paysense.jpg" width="45" height="45">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/tata.png" width="45" height="52">
+                    </div>
+                    <div class="partner-logo">
+                        <img class="logo-img" src="imges/partner-logo/Finable.png" width="45" height="45">
+                    </div>
+                    <div class="partner-logo">
+                        <span><strong>10+</strong></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------Testimony------------------>
+
+    <div class="container">
+        <h3 style="color: #31a0d8; font-weight: 100;">Testimony</h3>
+        <h2>What Pepole Say About Us</h2>
+        <div class="testimony">
+            <div class="row">
+                <div class="column">
+                    <!-- <img data-aos="flip-left" src="imges/SAMPLE_1.png" style="width: 120px; height: 120px;"> -->
+                    <div class="customer_content">
+                        <!-- <p>It's good job I'm feeling good  working  with this company.</p> -->
+                        <h4><b>Kumar</b></h4>
+                        <p>My business loan was approved with Standard Chartered Bank at an interest rate
+                            of 18% per annum. I felt the interest was a little bit high but the disbursal was timely
+                            which rescued me from a big-time tension. The process is hassle-free for me.
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <span class="star">
+                            <i class="fas fa-star" style="margin-left: 0px;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <div class="rating">4.0</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <!-- <img data-aos="flip-left" src="imges/SAMPLE_1.png" style="width: 120px; height: 120px;"> -->
+                    <div class="customer_content">
+                        <h4><b>Vijay</b></h4>
+                        <p> It was a nice experience with Lmv financial services Hyderabad. I have never seen such an
+                            easy
+                            process for getting a loan, especially when you require it.
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <span class="star">
+                            <i class="fas fa-star" style="margin-left: 0px;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                        <div class="rating">4.0</div>
+                    </div>
+                </div>
+                <div class="column" style="margin-right: 0;">
+
+                    <!-- <img> -->
+                    <div class="customer_content">
+                        <h4><b>prabha</b></h4>
+                        <p>Lmv Financial services is a very nice and professional service providers I see till now.
+                            LMV offers loans in a hassle-free manner and the process is pretty fast. My loan coordinator
+                            and manager have provided an excellent service which made it easy for me to meet my needs.
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <span class="star">
+                            <i class="fas fa-star" style="margin-left: 0px;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <!-- <i class="far fa-star"></i> -->
+                        </span>
+                        <div class="rating">4.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------contact us------------------>
+
+    <!-- <div class="container contact">
+        <div class="row">
+            <div class="column">
+                <h1>U Dream... We Plan</h1>
+            </div>
+            <div class="column contact_us">
+                <p><a style="color: black;" href="Contact.html">contact us</a></p>
+            </div>
+        </div>
+    </div> -->
+
+    <!----------------footer------------------>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Offering</h3>
+                        <ul>
+                            <li><a href="Loans/PersonalLoan.html">Personal Loans</a></li>
+                            <li><a href="Loans/Business_Loan.html">Business Loans</a></li>
+                            <li><a href="Loans/home.html">Home Loans</a></li>
+                            <li><a href="Loans/Lap_Loan.html">LAP Loans</a></li>
+                            <li><a href="Loans/Car_Loan.html">Car Loans</a></li>
+                            <!-- <li><a href="Loans/Education_Loan.html">Education Loans</a></li>
+                            <li><a href="#">Insurance</a></li> -->
+                        </ul>
+
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Resources</h3>
+                        <ul>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="branches.html">Branches</a></li>
+                            <li><a href="Career.html">Carrers</a></li>
+                            <!-- <li><a href="#">Customer Testinonials</a></li> -->
+                            <li><a href="Contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Caluclators</h3>
+                        <ul>
+                            <li><a href="EMI Caluclators/PersonalLoanCalci.html">Personal Loan</a></li>
+                            <li><a href="EMI Caluclators/BusinessLoanCalci.html">Business Loan</a></li>
+                            <li><a href="EMI Caluclators/HomeLoanCalci.html">Home Loan</a></li>
+                            <li><a href="EMI Caluclators/LapLoanCalci.html">LAP Loan</a></li>
+                            <li><a href="EMI Caluclators/CarLoanCalci.html">Car Loan</a></li>
+                            <!-- <li><a href="Loans/Education_Loan.html">Education Loan</a></li>  -->
+                        </ul>
+                    </div>
+
+                    <div class="column nav-logo" style="margin-right: 70px;">
+                        <h3 style="color: #31a0d8;">Our Contact</h3>
+                        <ul>
+                            <li><span>Address:</span> Somajiguda</li>
+                            <li><span>Telph: </span>00118855692</li>
+                            <li> Mon - Sat (10 AM - 6 PM)</li>
+                            <li><span>Email: </span>lmvfinancialservices@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="column" style="margin-right: 0px;">
+                        <h3 style="color: #31a0d8;">LMV Group</h3>
+                        <ul>
+                            <li><a href="index.html">LMV Financial Services</a></li>
+                            <li><a href="https://lmvinsurancebroking.com/" target="_blank">LMV Insurance Broking
+                                    Services</a></li>
+                            <li><a href="https://www.lmvinvestmentservices.com/" target="_blank">LMV Investment Services
+                                    Pvt Ltd</a></li>
+                            <li><a href="https://lmvit.com/" target="_blank">LMV It Solutions Pvt Ltd</a></li>
+                        </ul>
+                        <h3 style="color: #31a0d8;">Follow Us</h3>
+                        <ul class="social_links1" style="list-style: none;">
+                            <li>
+                                <a href="https://www.facebook.com/LMVFINANCIALSERVICESPVTLTD" target="_blank">
+                                    <img src="imges/facebook-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/LMVfinancial" target="_blank">
+                                    <img src="imges/twitter-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/lmv-financial-services-pvt-ltd/?viewAsMember=true"
+                                    target="_blank">
+                                    <img src="imges/linkden-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+918142044044" target="_blank">
+                                    <img src="imges/whatsapp-icon.png" width="30" height="30">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/lmvfinancialservice/?hl=en" target="_blank">
+                                    <img src="imges/instagram.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <p>Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All Rights Reserved | LMV Financial Services Pvt Ltd
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <a href="PrivacyPolicy.html">Privacy Policy </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/ReadMore.js"></script>
+    <script>
+        // side nav
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "275px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+
+        // Form submit
+
+        var form = document.getElementById('my-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("my-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                alert('submit Succesfully')
+                // console.log("form");
+            });
+        });
+
+        // accordion
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active1");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        // model 
+
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // AOS Animations
+        AOS.init();
+    </script>
+    <script src="slides.js"></script>
+    <script>
+
+
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="description"
+        content="LMV financial services provides the best instant Business loan in 
+    Hyderabad, small business loan approvals with minimum documentation, the lowest interest rates, and flexible EMIs.">
+    <meta name="keywords"
+        content="Financial services in Hyderabad, Bangalore, Mumbai, Pune, Best Financial Services in india">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instant Business loans in Hyderabad-LMV Financial services</title>
+    <link rel="icon" href="../imges/favicon.png">
+
+    <!-- css styles -->
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/personal_loan.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <!-- font Family 
+     <link href="http://fonts.cdnfonts.com/css/montreal" rel="stylesheet"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!----------------navbar------------------>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-logo"><a href="../index.html"><img src="../imges/logo.jpeg"></a></div>
+                <div class="homenav">
+                    <ul>
+                        <li><a href="../index.html"><i style="font-size: 12px;" class="fa-solid fa-house"></i>Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Loans<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="../Loans/PersonalLoan.html">Personal Loans</a>
+                                    <a href="../Loans/Business_Loan.html">Business Loans</a>
+                                    <a href="../Loans/home.html">Home Loans</a>
+                                    <a href="../Loans/Lap_Loan.html">LAP Loans</a>
+                                    <a href="../Loans/Car_Loan.html">Car Loans</a>
+                                    <!-- <a href="../Loans/Education_Loan.html">Education Loans</a> -->
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbtn">
+                    <button class="navbutton">
+                        <a href="../branches.html">
+                            <img src="../imges/placeholder.svg" width="13" alt=""><span>Branch Locations</span></a>
+                        <strong>|</strong>
+                        <a onclick="document.getElementById('id01').style.display='block'">
+                            <img src="../imges/phone.svg" alt="" width="12">
+                            <span>Request a Callback</span>
+                        </a>
+                        <div id="id01" class="modal">
+                            <form style="width: 25%; margin: auto;">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                    title="Close Modal">&times;</span>
+                                <label for="fname" class="label" style="color: black;">NAME</label>
+                                <input type="text" id="fname" name="firstname"
+                                    placeholder="Please enter your full name">
+
+                                <label for="mobile" class="label" style="color: black;">MOBILE NUMBER</label>
+                                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number">
+
+                                <label for="mobile" class="label" style="color: black;">Requirement</label>
+                                <textarea name="requirement" rows="1" cols="50"
+                                    placeholder="Please add your requirement..."></textarea>
+                                <div class="subbtn"><input type="submit" value="Submit"></div>
+                            </form>
+                        </div>
+                    </button>
+                </div>
+                <div id="menunav" class="menunav">
+                    <div id="mySidepanel" class="sidepanel">
+
+                        <ul>
+                            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Loans</button>
+                                    <div class="dropdown-content">
+                                        <a href="../Loans/PersonalLoan.html">Personal Loans</a>
+                                        <a href="../Loans/Business_Loan.html">Business Loans</a>
+                                        <a href="../Loans/home.html">Home Loans</a>
+                                        <a href="../Loans/Lap_Loan.html">LAP Loans</a>
+                                        <a href="../Loans/Car_Loan.html">Car Loans</a>
+                                        <!-- <a href="../Loans/Education_Loan.html">Education Loans</a> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Insurance</button>
+                                    <div class="dropdown-content">
+                                        <a href="../insurance/Life_Insurance.html">Life Insurance</a>
+                                        <a href="../insurance/Health_Insurance.html">Health Insurance</a>
+                                        <a href="../insurance/Motor_insurance.html">Motor Insurance</a>
+                                        <a href="../insurance/Travel_Insurance.html">Travel Insurance</a>
+                                        <a href="../insurance/Home_Insurance.html">Home Insurance</a>
+                                        <a href="../insurance/Marine_Insurance.html">Marine Insurance</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="aboutsidenav">
+                            <ul>
+                                <li><a href="../About.html">About Us</a></li>
+                                <li><a href="../Contact.html">Contact Us</a></li>
+                                <li><a href="../Career.html">Careers</a></li>
+                                <li><a href="../PrivacyPolicy.html">Terms & Conditions</a></li>
+                                <li><a href="../branches.html">Our Branches</a></li>
+                                <li>
+                                    <a onclick="document.getElementById('id01').style.display='block'">
+                                        <img src="../imges/phone.svg" alt="" width="12">
+                                        <span>Request a Callback</span>
+                                    </a>
+                                    <div id="id01" class="modal">
+                                        <form style="width: 25%; margin: auto;">
+                                            <span onclick="document.getElementById('id01').style.display='none'"
+                                                class="close" title="Close Modal">&times;</span>
+                                            <label for="fname" class="label" style="color: black;">NAME</label>
+                                            <input type="text" id="fname" name="firstname"
+                                                placeholder="Please enter your full name">
+
+                                            <label for="mobile" class="label" style="color: black;">MOBILE
+                                                NUMBER</label>
+                                            <input type="tel" id="mobile" name="mobile"
+                                                placeholder="Enter your mobile number">
+
+                                            <label for="mobile" class="label" style="color: black;">Requirement</label>
+                                            <textarea name="requirement" rows="1" cols="50"
+                                                placeholder="Please add your requirement..."></textarea>
+                                            <div class="subbtn"><input type="submit" value="Submit"></div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="openbtn" onclick="openNav()"> &#9776;</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Form & Content -->
+    <div class="form">
+        <div class="container" style="margin-top: 100px;">
+            <div class="row" style="display: flex;">
+                <div class="col-50" style="width: 50%; margin-right: 20px;">
+                    <img src="../imges/Business Loan-01.jpg" width="100%" alt="">
+                </div>
+                <div class="col-50" style="width: 50%; margin: auto;">
+                    <form style="box-shadow: none;" action="https://sheetdb.io/api/v1/ja1tyg7bf4x8i" method="POST"
+                        id="my-form" autocomplete="off">
+                        <div class="tab personal">
+                            <h3>Unlock Your Business Growth?</h3>
+                            <p>Choose your best Business Loan to help you achieve your goals.</p>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="name" class="label">Name</label>
+                                    <input type="text" name="name" placeholder="Enter your name..." autocomplete="off">
+                                </div>
+                                <div class="column">
+                                    <label for="Email" class="label">Email</label>
+                                    <input type="email" name="email" placeholder="Enter your Email..."
+                                        autocomplete="off">
+                                </div>
+                                <div class="column" style="margin-right: 0;">
+                                    <label for="mobile" class="label">Mobile Number</label>
+                                    <input type="tel" name="Mobile" placeholder="Enter your Mobile Number.."
+                                        autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="Form_type" class="label">Form Type</label>
+                                    <select autocomplete="off" name="vmodel">
+                                        <option>select</option>
+                                        <option>Proprietor</option>
+                                        <option>Partnership</option>
+                                        <option>Private limited</option>
+                                        <option>LLP</option>
+                                    </select>
+                                </div>
+                                <div class="column">
+                                    <label for="industry_type" class="label">Industry Type</label>
+                                    <select autocomplete="off" name="industry_type">
+                                        <option>select</option>
+                                        <option>Aerospace Industry</option>
+                                        <option>Transport Industry</option>
+                                        <option>Computer Industry</option>
+                                        <option>Telecommunication industry</option>
+                                        <option>Agriculture industry</option>
+                                        <option>Construction Industry</option>
+                                        <option>Education Industry</option>
+                                        <option>Pharmaceutical Industry</option>
+                                        <option>Food Industry</option>
+                                        <option>Health care Industry</option>
+                                        <option>Hospitality Industry</option>
+                                        <option>Entertainment Industry</option>
+                                        <option>News Media Industry</option>
+                                        <option>Energy Industry</option>
+                                        <option>Manufacturing Industry</option>
+                                        <option>Music Industry</option>
+                                        <option>Mining Industry</option>
+                                        <option>Worldwide web</option>
+                                        <option>Electronics Industry</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                                <div class="column" style="margin-right: 0;">
+                                </div>
+                            </div>
+                            <div style="margin-top: 20px; text-align: center;">
+                                <span class="trms">By continuing, you provide consent and agree to our
+                                    <a class="terms" href="../PrivacyPolicy.html">Terms & Conditions</a></span>
+                            </div>
+                            <div class="subbtn"><input type="submit" value="Submit"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------Eligibility------------------>
+
+    <div class="container" style="max-width: 1000px;">
+        <div class="eligibility">
+            <h1>Business Loans In Hyderabad Details</h1>
+            <div style="display: flex;">
+                <div style="line-height: 1.6;"><i class="fa-solid fa-circle-arrow-right"></i></div>
+                <div>
+                    <p style="margin: 0;">At LMV financial services India offers business loans in
+                        Hyderabad with multiple benefits with competitive interest rates starting from 15%,
+                        flexible paying-off terms, collateral-free loans up to INR 50 lakhs, and many more
+                        additional benefits.
+                    </p>
+                </div>
+            </div>
+            <h2 style="text-align: left;">Looking for Business Loans in Hyderabad for your Business Expansion?</h2>
+            <div style="display: flex; margin-top: 10px;">
+                <div style="line-height: 1.6;"><i class="fa-solid fa-circle-arrow-right"></i></div>
+                <div>
+                    <p style="margin: 0;">We provide Business loans in Hyderabad, Bangalore, Mumbai, Pune, and Chennai.
+                    </p>
+
+                </div>
+            </div>
+            <div style="display: flex; margin-top: 10px;">
+                <div style="line-height: 1.6;"><i class="fa-solid fa-circle-arrow-right"></i></div>
+                <div>
+                    <p style="margin: 0;">We are expanding in all major cities in India, with low-interest rates in the
+                        market.
+                        Get more loan details below.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="eligibility">
+            <h2>Business Loan Eligibility </h2>
+            <p> We LMV financial services India provides business loans for self-employed individuals like owners,
+                private limited companies, and corporation enterprises from multiple fields
+                Check out your EMI options now with our Business loan emi calculator. </p>
+            <p>Below are our eligibility criteria. </p>
+            <ul>
+                <li>As an individual, you should be in the current business for a minimum of 3 years.</li>
+                <li> The minimal age needs to be 22 years, and the maximum age at the time of maturity should not be
+                    more than 65 years. </li>
+                <li>Another eligibility criterion is that your enterprises must book profits for the past two years with
+                    a minimum turnover of INR 1O lakhs. </li>
+                <li>Your enterprise should have a minimal regular income of INR 2 lakhs.</li>
+                <li>Check out your emi options now from our <a href="#emi-calci">Business loan emi calculator.</a></li>
+            </ul>
+            <p>Please note that final eligibility will depend on several other factors, including cibil score credit
+                history. In the same way, your eligibility for a business loan can be calculated and get an estimate
+                with
+                our business loan calculator. All you have to try and do is enter essential details like location, age,
+                yearly profit after taxes, and your net monthly EMIs.
+                You can vary the speed of interest and term to encourage a significant amount of your eligibility.</p>
+
+        </div>
+    </div>
+
+    <!-- Why you need  -->
+
+    <div class="container" style="max-width: 1000px;">
+        <div class="eligibility">
+            <h3>Why do you need to Take a Loan with us</h3>
+            <p><b>Fair interest rates:</b></p>
+            <ul>
+                <li>While multiple entrepreneurs choose to take a loan from a top-rated bank, they should remember the
+                    interest rates imposed can be stunning and discouraging.</li>
+                <li>In light of this, entrepreneurs can choose digital lending as it provides the customer with interest
+                    rates that suit their necessities.</li>
+            </ul>
+        </div>
+        <div class="eligibility">
+            <p><b>Customized requirements:</b></p>
+            <ul>
+                <li>Businesses have their ways of operating, and as a result, they often need additional business loans
+                    to succeed.</li>
+                <li>Thanks to the diverse loan options in Hyderabad, an entrepreneur can handpick their loans, fit them,
+                    and aid their business to grow on the right path.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Document -->
+
+    <div class="Requirements" style="max-width: 1000px; margin: auto;">
+        <div class="container">
+            <div class="documenth1">
+                <h1>Documents Needed for a Business Loan in Lmv financial services </h1>
+            </div>
+            <div class="documents">
+                <h3 style="margin: 20px;">some of the essential documents needed are</h3>
+                <div class="eligibility">
+                    <ul>
+                        <li>Identity documentation like as a PAN card</li>
+                        <li>Present Address</li>
+                        <li>Last six months' bank statements</li>
+                        <li>Latest ITR reflects the income computation, balance sheet, profit,
+                            and loss account. Those for the previous two years are to be submitted.</li>
+                        <li>Evidence of business actuality like Trade license/ Establishment/ Sales Tax
+                            Certificate. Sometimes after an initial screening process, we might require
+                            additional documents from our applicants. Upon successful verification
+                            checks and loan approval, the amount will get disbursed to the applicant's
+                            account.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------EMI Caluclator------------------>
+
+    <div class="forms" id="emi-calci">
+        <div class="container">
+            <h2>EMI Caluclator</h2>
+            <form class="caluclator" id="loan-form">
+                <div class="row" style="display: flex; justify-content: space-around;">
+                    <div class="col">
+                        <div class="inputs">
+                            <div class="row">
+                                <div class="column">
+                                    <h4 class="label">Business Loan Amount</h4>
+                                </div>
+                                <div class="slidecontainer column" style="display: flex;">
+                                    <p><span id="demo1"></span> </p>
+                                    <h5>₹</h5>
+                                </div>
+                            </div>
+                            <div class="slidecontainer">
+                                <input type="range" min="500000" max="500000000" value="500000" step="50000"
+                                    class="slider" id="amount">
+                                <div id="loanamountsteps" class="steps">
+                                    <span class="tick" style="left: 0%;">|<br>
+                                        <span class="marker">0</span>
+                                    </span>
+                                    <span class="tick" style="left: 20.67%;">|<br>
+                                        <span class="marker">10cr</span>
+                                    </span>
+                                    <span class="tick" style="left: 40.33%;">|<br>
+                                        <span class="marker">20cr</span>
+                                    </span>
+                                    <span class="tick" style="left: 60%;">|<br>
+                                        <span class="marker">30cr</span>
+                                    </span>
+                                    <span class="tick" style="left: 79.5%;">|<br>
+                                        <span class="marker">40cr</span>
+                                    </span>
+                                    <span class="tick" style="left: 100%;">|<br>
+                                        <span class="marker">50cr</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputs">
+                            <div class="row">
+                                <div class="column">
+                                    <h4 class="label">Intrest Rate</h4>
+                                </div>
+                                <div class="slidecontainer column" style="display: flex;">
+                                    <p><span id="demo2"></span> </p>
+                                    <h5>%</h5>
+                                </div>
+                            </div>
+                            <div class="slidecontainer">
+                                <input type="range" min="5" max="20" value="7.5" step="0.1" class="slider"
+                                    id="interest">
+                                <div id="loanintereststeps" class="steps">
+                                    <span class="tick" style="left: 0%;">|<br>
+                                        <span class="marker">5</span>
+                                    </span>
+                                    <span class="tick" style="left: 17.5%;">|<br>
+                                        <span class="marker">7.5</span>
+                                    </span>
+                                    <span class="tick" style="left: 34%;">|<br>
+                                        <span class="marker">10</span>
+                                    </span>
+                                    <span class="tick" style="left: 50.5%;">|<br>
+                                        <span class="marker">12.5</span>
+                                    </span>
+                                    <span class="tick" style="left: 66.5%;">|<br>
+                                        <span class="marker">15</span>
+                                    </span>
+                                    <span class="tick" style="left: 83%;">|<br>
+                                        <span class="marker">17.5</span>
+                                    </span>
+                                    <span class="tick" style="left: 100%;">|<br>
+                                        <span class="marker">20</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputs">
+                            <div class="row">
+                                <div class="column">
+                                    <h4 class="label">Business Loan Tenure</h4>
+                                </div>
+                                <div class="slidecontainer column" style="display: flex;">
+                                    <p><span id="demo3"></span> </p>
+                                    <h5 style="border-radius: 0 ;">Yr</h5>
+                                </div>
+                            </div>
+                            <div class="slidecontainer">
+                                <input type="range" min="0" max="4" value="1" class="slider" id="year">
+                                <div id="loantermsteps" class="steps">
+                                    <span class="tick" style="left: 0%;">|<br>
+                                        <span class="marker">0</span>
+                                    </span>
+                                    <span class="tick" style="left: 26%;">|<br>
+                                        <span class="marker">1</span>
+                                    </span>
+                                    <span class="tick" style="left: 50%;">|<br>
+                                        <span class="marker">2</span>
+                                    </span>
+                                    <span class="tick" style="left: 74.5%;">|<br>
+                                        <span class="marker">3</span>
+                                    </span>
+                                    <span class="tick" style="left: 100%;">|<br>
+                                        <span class="marker">4</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button class="button">Calculate</button>
+                        </div>
+                    </div>
+
+                    <div class="col section">
+                        <h1 class="title">Calculated Results</h1>
+                        <div class="columns">
+
+                            <div class="column">
+                                <div class="notification" style="display: flex;">
+                                    <p id="monthlyPayment" class="title">₹ </p>
+                                    <p class="subtitle">Monthly Payments</p>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="notification" style="display: flex;">
+                                    <p id="totalInterest" class="title">₹</p>
+                                    <p class="subtitle">Total Interest</p>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="notification" style="display: flex;">
+                                    <p id="totalPayment" class="title">₹ </p>
+                                    <p class="subtitle">Total Amount</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!----------------footer------------------>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Offering</h3>
+                        <ul>
+                            <li><a href="../Loans/PersonalLoan.html">Personal Loans</a></li>
+                            <li><a href="../Loans/Business_Loan.html">Business Loans</a></li>
+                            <li><a href="../Loans/home.html">Home Loans</a></li>
+                            <li><a href="../Loans/Lap_Loan.html">LAP Loans</a></li>
+                            <li><a href="../Loans/Car_Loan.html">Car Loans</a></li>
+                            <!-- <li><a href="../Loans/Education_Loan.html">Education Loans</a></li>
+                            <li><a href="#">Insurance</a></li> -->
+                        </ul>
+
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Resources</h3>
+                        <ul>
+                            <li><a href="../About.html">About Us</a></li>
+                            <li><a href="../branches.html">Branches</a></li>
+                            <li><a href="../Career.html">Carrers</a></li>
+                            <!-- <li><a href="#">Customer Testinonials</a></li> -->
+                            <li><a href="../Contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Caluclators</h3>
+                        <ul>
+                            <li><a href="../EMI Caluclators/PersonalLoanCalci.html">Personal Loan</a></li>
+                            <li><a href="../EMI Caluclators/BusinessLoanCalci.html">Business Loan</a></li>
+                            <li><a href="../EMI Caluclators/HomeLoanCalci.html">Home Loan</a></li>
+                            <li><a href="../EMI Caluclators/LapLoanCalci.html">LAP Loan</a></li>
+                            <li><a href="../EMI Caluclators/CarLoanCalci.html">Car Loan</a></li>
+                            <!-- <li><a href="../Loans/Education_Loan.html">Education Loan</a></li>  -->
+                        </ul>
+                    </div>
+                    <div class="column nav-logo" style="margin-right: 50px;">
+                        <h3 style="color: #31a0d8;">Our Contact</h3>
+                        <ul>
+                            <li><span>Address:</span> Somajiguda</li>
+                            <li><span>Telph: </span>00118855692</li>
+                            <li> Mon - Sat (10 AM - 6 PM)</li>
+                            <li><span>Email: </span>lmvfinancialservices@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="column" style="margin-right: 0px;">
+                        <h3 style="color: #31a0d8;">LMV Group</h3>
+                        <ul>
+                            <li><a href="../index.html">LMV Financial Services</a></li>
+                            <li><a href="https://lmvinsurancebroking.com/" target="_blank">LMV Insurance Broking
+                                    Services</a></li>
+                            <li><a href="https://www.lmvinvestmentservices.com/" target="_blank">LMV Investment Services
+                                    Pvt Ltd</a></li>
+                            <li><a href="https://lmvit.com/" target="_blank">LMV It Solutions Pvt Ltd</a></li>
+                        </ul>
+                        <h3 style="color: #31a0d8;">Follow Us</h3>
+                        <ul class="social_links1" style="list-style: none;">
+                            <li>
+                                <a href="https://www.facebook.com/LMVFINANCIALSERVICESPVTLTD" target="_blank">
+                                    <img src="../imges/facebook-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/LMVfinancial" target="_blank">
+                                    <img src="../imges/twitter-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/lmv-financial-services-pvt-ltd/?viewAsMember=true"
+                                    target="_blank">
+                                    <img src="../imges/linkden-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+918142044044" target="_blank">
+                                    <img src="../imges/whatsapp-icon.png" width="30" height="30">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/lmvfinancialservice/?hl=en" target="_blank">
+                                    <img src="../imges/instagram.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <p>Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All Rights Reserved | LMV Financial Services Pvt Ltd
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <a href="../PrivacyPolicy.html">Privacy Policy </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var form = document.getElementById('my-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("my-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                alert('submit Succesfully')
+                // console.log("form");
+            });
+        });
+    </script>
+
+    <script src="../js/personal_loan.js"></script>
+    <script src="../js/Loan Caluclator.js"></script>
+</body>
+
+</html>

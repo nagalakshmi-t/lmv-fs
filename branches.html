@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" charset="UTF-8">
+        <meta name="description" content="LMV Financial Services is one of the best financial services in
+                    Hyderabad, Bangalore, Mumbai.We provide all type of Loans mutual fund, financial planning, fixed deposits and insurance services.">
+        <meta name="keywords" content="Financial services in Hyderabad, Bangalore, Mumbai, Pune, Best Financial Services in india">       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Financial Services in Hyderabad|Bangalore|Mumbai|Pune|Visakapatanam|Varangal| LMV Financial Services</title>
+        <link rel="icon" href="imges/favicon.png">
+
+        <!-- css styles -->
+
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- font Family 
+        <link href="http://fonts.cdnfonts.com/css/montreal" rel="stylesheet"> -->
+
+        <!-- Font Awesome -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+
+        <style>
+            .zoom:hover {
+                -ms-transform: scale(1.0); 
+                -webkit-transform: scale(1.0); 
+                transform: scale(0.9); 
+            }
+            .card h4{
+                text-align: center;
+                background-color: #31a0d8;
+                padding: 12px;
+                color: #fff;
+                border-radius: 15px;
+            }
+            .card-head .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                border-radius: 5px;
+            }
+            .panel p{
+                text-align: left;
+            }            
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            .container1 {
+                padding: 2px 16px;
+            }          
+            .section{
+                display: flex;
+                justify-content: center;
+            }
+            .accordion {
+                margin-top: 2rem;
+                background-color: #fff;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                color: #31a0d8;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: center;
+                font-size: 15px;
+                transition: 0.4s;
+            }            
+            .active, .accordion:hover {
+                background-color: #eee;
+            }
+            
+            .accordion:after {
+                /* content: '\002B'; */
+                color: #31a0d8;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+/*             
+            .active:after {
+                content: "\274C";
+            }
+             */
+            .panel {
+                padding: 0 5px;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+            }
+            .branches .row{
+                display: flex;
+            }
+            .branches .row .col{
+                width: 33.33%;
+                margin-right: 30px;
+            }
+            @media (max-width: 940px){
+                .branches strong{
+                    display: block;
+                }
+                .branches .row .col{
+                    width: 100% !important;
+                }
+            }
+        </style>
+    </head>
+</head>
+<body>
+    
+    <!----------------navbar------------------>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-logo"><a href="index.html"><img src="imges/logo.jpeg"></a></div>
+                <div class="homenav">
+                    <ul>                        
+                        <li><a href="index.html"><i style="font-size: 12px;"class="fa-solid fa-house"></i>Home</a></li>                        
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Loans<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="Loans/PersonalLoan.html">Personal Loans</a>
+                                    <a href="Loans/Business_Loan.html">Business Loans</a>
+                                    <a href="Loans/home.html">Home Loans</a>
+                                    <a href="Loans/Lap_Loan.html">LAP Loans</a>
+                                    <a href="Loans/Car_Loan.html">Car Loans</a>
+                                    <!-- <a href="Loans/Education_Loan.html">Education Loans</a> -->
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Credit Cards<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Apply Credit Cards</a>
+                                    <a href="#">HDFC Bank Credit Card</a>
+                                    <a href="#">SBI Credit Card</a>
+                                    <a href="#">Bettr Card</a>
+                                    <a href="#">YES BANK Credit Card</a>
+                                    <a href="#">Citi Bank Credit Card</a>
+                                </div>
+                            </div>
+                        </li> -->
+                        <!-- <li><a href="Services.html">Services</a></li>
+                        <li><a href="Blog.html">Blog</a></li>   -->
+                    </ul> 
+                </div>
+                <div class="navbtn">
+                    <button  class="navbutton">
+                            <a href="branches.html">
+                            <img src="imges/placeholder.svg" width="13" alt=""><span>Branch Locations</span></a>                   
+                            <strong>|</strong>         
+                            <a onclick="document.getElementById('id01').style.display='block'">
+                                <img src="imges/phone.svg" alt="" width="12">
+                                <span>Request a Callback</span></a>
+                                <div id="id01" class="modal">
+                                    <form style="width: 25%; margin: auto;">
+                                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                        <label for="fname" class="label" style="color: black;">NAME</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="Please enter your full name">
+                                    
+                                        <label for="mobile" class="label" style="color: black;">MOBILE NUMBER</label>
+                                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number">
+                                        
+                                        <label for="mobile" class="label" style="color: black;">Requirement</label> 
+                                        <textarea name="requirement" rows="1" cols="50" placeholder="Please add your requirement..."></textarea>
+                                        <div class="subbtn"><input type="submit" value="Submit"></div>
+                                    </form>
+                                </div>
+                    </button>
+                </div>
+                <div id="menunav" class="menunav">
+                    <div id="mySidepanel" class="sidepanel">                        
+                        <ul>
+                            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Loans</button>
+                                    <div class="dropdown-content">
+                                        <a href="Loans/PersonalLoan.html">Personal Loans</a>
+                                        <a href="Loans/Business_Loan.html">Business Loans</a>
+                                        <a href="Loans/home.html">Home Loans</a>
+                                        <a href="Loans/Lap_Loan.html">LAP Loans</a>
+                                        <a href="Loans/Car_Loan.html">Car Loans</a>
+                                        <!-- <a href="Loans/Education_Loan.html">Education Loans</a> -->
+                                    </div>
+                                </div>
+                            </li>                
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Insurance</button>
+                                    <div class="dropdown-content">
+                                        <a href="insurance/Life_Insurance.html">Life Insurance</a>
+                                        <a href="insurance/Health_Insurance.html">Health Insurance</a>
+                                        <a href="insurance/Motor_insurance.html">Motor Insurance</a>
+                                        <a href="insurance/Travel_Insurance.html">Travel Insurance</a>
+                                        <a href="insurance/Home_Insurance.html">Home Insurance</a>
+                                        <a href="insurance/Marine_Insurance.html">Marine Insurance</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="aboutsidenav">
+                            <ul>
+                                <li><a href="About.html">About Us</a></li>
+                                <!-- <li><a href="Blog.html">Blog</a></li> -->
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="Career.html">Careers</a></li>
+                                <li><a href="PrivacyPolicy.html">Terms & Conditions</a></li>
+                                <li><a href="branches.html">Our Branches</a></li>
+                                <li>
+                                    <a onclick="document.getElementById('id01').style.display='block'">
+                                        <img src="imges/phone.svg" alt="" width="12">
+                                        <span>Request a Callback</span></a>
+                                    <div id="id01" class="modal">
+                                        <form style="width: 25%; margin: auto;">
+                                            <span onclick="document.getElementById('id01').style.display='none'"
+                                                class="close" title="Close Modal">&times;</span>
+                                            <label for="fname" class="label" style="color: black;">NAME</label>
+                                            <input type="text" id="fname" name="firstname"
+                                                placeholder="Please enter your full name">
+
+                                            <label for="mobile" class="label" style="color: black;">MOBILE
+                                                NUMBER</label>
+                                            <input type="tel" id="mobile" name="mobile"
+                                                placeholder="Enter your mobile number">
+
+                                            <label for="mobile" class="label" style="color: black;">Requirement</label>
+                                            <textarea name="requirement" rows="1" cols="50"
+                                                placeholder="Please add your requirement..."></textarea>
+                                            <div class="subbtn"><input type="submit" value="Submit"></div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                    <button class="openbtn" onclick="openNav()"> &#9776;</button>   
+                </div>            
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div style="margin-top: 150px;">
+            <h2 style="color: #000; text-align: center;" class="indiabranches">List Of Branches In India</h2> 
+        </div>
+        <div class="branches">
+            <div class="row">
+                <div class="col">
+                    <button class="accordion"><strong>Hyderabad</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Hyderabad</b></h4>  
+                                <p><b>Address</b> : 2nd Floor, H.No.6-3-899/1, R V S Kamal Castle, Raj Bhawan Road</p>
+                                <p><b>City</b> : Somajiguda, Hyderabad, Telangana-500082.</p>
+                                <p><b>Name:</b> Geetha</p>
+                                <p><b>Email</b> : geetha@lmvfinancialservices.com</p>
+                                <p><b>Phone</b> : 9100777942</p>
+                                <p><b>Map Location</b> :
+                                    <a href="https://g.page/LMVFINANCIALSERVICES?share" target="_blank">
+                                    <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <button class="accordion"><strong>Bengalore</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Bengalore</b></h4> 
+                                <p><b>Address</b> : unit 202, 2nd Floor, Midford Garden, Midford House</p>
+                                <p><b>City</b> : off MG Road, Bangalore-560001.</p>
+                                    <p><b>Name</b>: Avinash Varala</p>
+                                    <p><b>Email</b> : avinash.v@lmvfinancialservices.com</p>
+                                    <p><b>Phone</b> : 9985838369</p>
+                                    <p><b>Map Location</b> :
+                                        <a href="https://goo.gl/maps/7YQkqEfogdkrrwey6" target="_blank">
+                                        <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="margin-right: 0;">
+                    <button class="accordion"><strong>Visakhapatnam</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b> Visakhapatnam</b></h4>  
+                                <p><b>Address</b> : Satyam Plaza, Flat No 401,4th Floor Dwaraka Nagar 3rd line</p>
+                                <p><b>City</b> : Opp ICICI Home Finance, Dwarakanagar,  visakhapatnam-530016.</p>
+                                <p><b>Name</b>: Bollipo Sudhakar babu</p>
+                                <p><b>Email</b> : sudhakar@lmvfinancialservices.com</p>
+                                <p><b>Phone</b> :  9133909122</li>
+                                <p><b>Map Location</b> : 
+                                    <a href="https://goo.gl/maps/UReAhD4shDr7PZii9" target="_blank">
+                                        <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="accordion"><strong>Ananthapur</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Ananthapur</b></h4> 
+                                <p><b>Address</b> : 15-688-1, 1st floor, Sri New Ganesh Complex</p> 
+                                <p><b>City</b> : R.F. Road, Old Town Ananthapur.</p>
+                                <p><b>Email</b> : ramakrishna@lmvfinacialservices.com</p>
+                                <p><b>Phone</b> : 9177698038</p>
+                                <p><b>Map Location</b> :
+                                    <a href="https://goo.gl/maps/JuNigg2Q4e1ZWnsm8" target="_blank">
+                                    <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>    
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+                <div class="col">
+                    <button class="accordion"><strong>Mumbai</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Mumbai</b></h4> 
+                                <p><b>Address</b> : 305 3rd Floor Heena Arcade, Next to Shalimar Hotel</p>
+                                <p><b>City</b> : S V Road, Jogeshwari West, Mumbai-400102.</p> 
+                                <p><b>Name</b>: Anshul Dubey</p>
+                                <p><b>Email</b> : anshul.dubey@lmvfinancialservices.com</p>
+                                <p><b>Phone</b> : 8108337225</p>
+                                <p><b>Map Location</b> : <a href="https://goo.gl/maps/HnQbfYGrFiJxV5Qb6" target="_blank">
+                                    <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col " style="margin-right: 0;">
+                    <button class="accordion"><strong>Pune</strong></button>
+                    <div class="panel card-head">
+                           <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Pune</b></h4> 
+                                <p><b>Address</b> : 307, 3rd floor, Ashoka Mall</p>
+                                <p><b>City</b> : Bund Garden Road, Pune-411001</p>
+                                <p><b>Name</b> : Rohan V. Karankot</p>
+                                <p><b>Email</b> : rohanraj.vk@lmvfinancialservices.com</p>
+                                <p><b>Phone</b> :  9604053339</p>
+                                <p><b>Map Location</b> : 
+                                    <a href="https://goo.gl/maps/NTWanzi18iMfUZMQ9" target="_blank">
+                                            <img src="imges/placeholder.svg" alt="" width="15"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="accordion"><strong>Chennai</strong></button>
+                    <div class="panel card-head">
+                        <div class="zoom card branches">
+                            <div class="container1" id="show_list">
+                                <h4><b>Chennai</b></h4>               
+                                <p><b>Address</b> : No.7/15, Basha Street, Off Choolaimedu High Road</p>
+                                <p><b>City</b> :  Near Nungambakkam Railway Station, Chennai 600094.</p>
+                                <p><b>Name</b> :  Manojkumar</p>
+                                <p><b>Email</b> : manojkumar@lmvfinancialservices.com</p>
+                                <p><b>Phone</b> : 9342104394</p>
+                                <p><b>Map Location</b> :
+                                    <a href="https://goo.gl/maps/6FZfr6T7MGFrRh5y5" target="_blank">
+                                        <img src="imges/placeholder.svg" alt="" width="15">
+                                        </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+                <div class="col" style="margin: auto;">
+                    <button class="accordion"><strong>More Branches Comming Soon...</strong></button>
+                </div>  
+                <div class="col"></div>
+            </div>                
+        </div>
+    </div>
+
+  
+    <!----------------footer------------------>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Offering</h3>
+                        <ul>
+                            <li><a href="Loans/PersonalLoan.html">Personal Loans</a></li>
+                            <li><a href="Loans/Business_Loan.html">Business Loans</a></li>
+                            <li><a href="Loans/home.html">Home Loans</a></li>
+                            <li><a href="Loans/Lap_Loan.html">LAP Loans</a></li>
+                            <li><a href="Loans/Car_Loan.html">Car Loans</a></li>
+                            <!-- <li><a href="Loans/Education_Loan.html">Education Loans</a></li>
+                            <li><a href="#">Insurance</a></li> -->
+                        </ul>
+                        
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Resources</h3>
+                        <ul>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="branches.html">Branches</a></li>
+                            <li><a href="Career.html">Carrers</a></li>
+                            <!-- <li><a href="#">Customer Testinonials</a></li> -->
+                            <li><a href="Contact.html">Contact Us</a></li>
+                        </ul>                        
+                    </div>
+                    <div class="column" style="width: 16%;">
+                        <h3 style="color: #31a0d8;">Caluclators</h3>
+                        <ul>
+                            <li><a href="EMI Caluclators/PersonalLoanCalci.html">Personal Loan</a></li>
+                            <li><a href="EMI Caluclators/BusinessLoanCalci.html">Business Loan</a></li>
+                            <li><a href="EMI Caluclators/HomeLoanCalci.html">Home Loan</a></li>
+                            <li><a href="EMI Caluclators/LapLoanCalci.html">LAP Loan</a></li>
+                            <li><a href="EMI Caluclators/CarLoanCalci.html">Car Loan</a></li>
+                            <!-- <li><a href="Loans/Education_Loan.html">Education Loan</a></li>  -->
+                        </ul>                       
+                    </div>               
+                  
+                    <div class="column nav-logo" style="margin-right: 70px;">
+                        <h3 style="color: #31a0d8;">Our Contact</h3>
+                        <ul>
+                            <li><span>Address:</span> Somajiguda</li>
+                            <li><span>Telph: </span>00118855692</li>
+                            <li> Mon - Sat (10 AM - 6 PM)</li>
+                            <li><span>Email: </span>lmvfinancialservices@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="column" style="margin-right: 0px;">
+                        <h3 style="color: #31a0d8;">LMV Group</h3>
+                        <ul>
+                            <li><a href="index.html">LMV Financial Services</a></li>
+                            <li><a href="https://lmvinsurancebroking.com/" target="_blank">LMV Insurance Broking Services</a></li>
+                            <li><a href="https://www.lmvinvestmentservices.com/" target="_blank">LMV Investment Services Pvt Ltd</a></li>
+                            <li><a href="https://lmvit.com/" target="_blank">LMV It Solutions Pvt Ltd</a></li>
+                        </ul>
+                        <h3 style="color: #31a0d8;">Follow Us</h3> 
+                        <ul class="social_links1" style="list-style: none;">
+                            <li>
+                                <a href="https://www.facebook.com/LMVFINANCIALSERVICESPVTLTD" target="_blank">
+                                    <img src="imges/facebook-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/LMVfinancial" target="_blank">
+                                    <img src="imges/twitter-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/lmv-financial-services-pvt-ltd/?viewAsMember=true" target="_blank">
+                                    <img src="imges/linkden-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+918142044044" target="_blank">
+                                    <img src="imges/whatsapp-icon.png" width="30" height="30">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/lmvfinancialservice/?hl=en" target="_blank">
+                                    <img src="imges/instagram.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container">
+            <div class="row">
+                <div class="column">
+                    <p>Copyright &copy; 
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All Rights Reserved | LMV Financial Services Pvt Ltd</p>
+                </div>
+                <div class="column">
+                    <p>
+                        <a href="PrivacyPolicy.html">Privacy Policy </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div> 
+    </footer>
+        
+    <script>
+
+        function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+        }
+        /**********LOCATIONS***********/ 
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
+    
+</body>
+</html>

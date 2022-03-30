@@ -1,0 +1,132 @@
+body,html,p, ul li,a,span,strong{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+  /* max-width: 500px; */
+  margin: auto;
+}
+.form{
+    border: none;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: -1px 1px 5px rgb(0 0 0 / 10%);
+    background: rgba(40, 50, 60, .1) !important;
+    /* padding: 16px; */
+    /* margin-top: 85px; */
+}
+/* .forms h3,h2,h4{
+    text-align: center;
+    text-transform: uppercase;
+} */
+.personal .row{
+    display: flex;
+    justify-content: space-between;
+}
+.personal .column{
+    width: 33.33%;
+    margin-right: 50px;
+}
+.procees{
+    text-align: center;
+    margin-top: 25px;
+}
+.procees button{
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    background-color: #31a0d8;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.procees a{color: white;
+font-weight: bold;}
+.Eligibility .row{
+    display: flex;
+}
+.Eligibility .col-50{
+    width: 50%;
+    margin: auto;    
+}
+.form .col-50 img{
+    border-radius: 10px;
+}
+.forms{
+    /* background: rgba(40, 50, 60, .1) !important; */
+    padding: 16px;
+}
+.documents{      
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.documents ul li{
+    list-style: square;
+    line-height: 2;
+}
+.eligibility ul li{
+    list-style: square;
+    line-height: 2;
+}
+.eligibility a{
+    color: #31a0d8;
+    text-transform: capitalize;
+}
+ .section h1  {font-size: 1.5rem;}
+@media (max-width: 940px){
+    .personal .row{
+        display: block;
+    } 
+    label{
+        float: left;
+    }
+    .personal .column{
+        width: 100% !important;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form .row{
+        display: block;
+    }
+    .form .col-50{
+        width: 100% !important;
+        text-align: left;
+    }
+    form{
+        max-width: 100%;
+    }
+    .Eligibility .col-50{
+        width: 100% !important;
+    }
+    .inputs .column{
+        width: 100% !important;
+    }
+    .slidecontainer{
+        justify-content: center !important;
+    }
+    .columns .column{
+        width: 100% !important;
+    }
+    .documents{
+        padding: 10px;
+    }
+    .eligibility p,.eligibility h1, .eligibility h2, .eligibility h3{
+        padding-left: 10px;
+    }
+    /* h3,h2,p{
+        padding: 10px;
+        margin: 0;
+    } */
+    .documents h3{
+        padding: 0 !important;
+        margin: 5px !important;
+    }    
+    .fa-solid{
+        line-height: 2.8 !important;
+    }
+    
+}
